@@ -147,8 +147,8 @@ span.image_text{
 }
 
 .story.picture.one{
-  /*background-image: url('..\\images\\img-story-main.png');*/
-  background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-main.png');
+  background-image: url('..\\Images\\img-story-main.png');
+  /*background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-main.png');*/
   width: 100%;
   height: 300px;
 }
@@ -171,13 +171,13 @@ span.image_text{
 }
 
 .story.picture.three{
-  /*background-image: url('..\\images\\img-story-3.png');*/
-  background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-3.png');
+  background-image: url('..\\Images\\img-story-3.png');
+  /*background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-3.png');*/
 }
 
 .story.picture.four{
-  /*background-image: url('..\\images\\img-story-1.png');*/
-  background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-1.png');
+  background-image: url('..\\images\\img-story-1.png');
+  /*background-image: url('https://raw.githubusercontent.com/ylvare/ProjectMyTimes/master/Resources/Images/img-story-1.png');*/
   margin-top: auto;
 }
 
