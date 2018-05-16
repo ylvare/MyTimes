@@ -156,11 +156,10 @@ span.image_text{
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
-  height: 4em;
+  height: 40px;
   border-bottom: solid 1px black;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   flex-direction: column;
   text-align: left;
   padding-left: 10px;
