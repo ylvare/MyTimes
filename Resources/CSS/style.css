@@ -1,0 +1,214 @@
+header {
+  background-color: white;
+  display: flex;
+  flex-direction:row;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding: 100px;
+}
+
+h2{
+  font-family: Georgia;
+  font-size: 1.5em;
+  color: black;
+}
+
+footer p{
+  text-align: center;
+  width: 100%;
+}
+
+footer nav{
+  text-align: center;
+}
+
+ a {
+   color: black;
+ }
+
+ nav {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+
+ footer nav span{
+   display: inline-block;
+   padding: 0 10px;
+ }
+
+ header nav span{
+   display: inline-block;
+   padding: 20px 10px;
+ }
+
+ #footer_logo{
+   display: inline-block;
+   font-family: Georgia;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   padding-right: 40px;
+   border-right: solid 3px;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+
+  position: relative;
+  top: 65px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  width: 1270px; /* is this possible to solve without hardcoding width?*/
+  z-index: 1;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.column.large {
+  width: 630px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.column.small {
+  width: 240px;
+  flex-shrink: 0;
+  /* kolla om detta går att göra på bättre sätt?*/
+}
+
+span.image_text{
+  position: inital;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story.two, .story.three{
+  width: 47%;
+}
+
+.story.picture{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.story.picture.one{
+  /*background-image: url('..\\images\\img-story-main.png');*/
+  background-image: url('https://raw.githubusercontent.com/ylvare/mytimes/master/Resources/Images/img-story-main.png');
+  width: 100%;
+  height: 300px;
+}
+
+.story.picture.one span{
+  text-align: left;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.story.picture.two, .story.picture.three, .story.picture.four{
+  width: 100%;
+  height: 300px;
+  margin-top: 70px;
+}
+.story.picture.two {
+  /*background-image: url('..\\images\\img-story-2.png');*/
+  background-image: url('https://raw.githubusercontent.com/ylvare/mytimes/master/Resources/Images/img-story-2.png');
+}
+
+.story.picture.three{
+  /*background-image: url('..\\images\\img-story-3.png');*/
+  background-image: url('https://raw.githubusercontent.com/ylvare/mytimes/master/Resources/Images/img-story-3.png');
+}
+
+.story.picture.four{
+  /*background-image: url('..\\images\\img-story-1.png');*/
+  background-image: url('https://raw.githubusercontent.com/ylvare/mytimes/master/Resources/Images/img-story-1.png');
+  margin-top: auto;
+}
+
+.News_Bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.News_Bites h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.News_Bites ul{
+  list-style-type: none;
+  padding: 0;
+  color: DimGray;
+}
+
+.News_Bites li{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 4em;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 50px;
+
+}
